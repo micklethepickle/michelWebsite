@@ -1,0 +1,204 @@
+/*color palet
+darkBlue: #26547C;
+red: #EF476F;
+yellow: #89BBFE;
+lightGreen: #06D6A0;
+white: #FCFCFC;
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 20px "Catamaran", sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+p{
+	padding: 0;
+	margin: 0;
+}
+#backgroundBox{
+	z-index: -100;
+	position: fixed;
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #06D6A0;
+}
+
+mainTitle{
+	position: relative;
+	font-size: 50px;
+}
+
+#mainBox{
+	z-index: -50;
+	top: -100px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	margin: auto;
+	height: 200px;
+	width: 500px;
+	background-color: #FCFCFC;
+	box-shadow: 0 0 20px #000000;
+}
+
+#mainBox ul{
+	text-align: center;
+	padding: 0;
+}
+#mainBox ul li{
+	position: relative;
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#titleBox{
+	z-index: -25;
+	display: block;
+	width: 500px;
+	height: 123px;
+	border-bottom: 2px solid black;
+
+}
+
+#aboutSec{
+	position: absolute;
+	overflow: hidden;
+	display: block;
+	width: 249px;
+	height: 75px;
+	background-color: #89BBFE;
+	border-right: 2px solid black;
+	line-height: 75px;
+}
+
+#aboutSec ul{
+	line-height: 50px;
+	padding: 0;
+}
+
+#aboutSec ul li{
+	opacity: 0;
+	display: inline-block;
+	font-size: 20px;
+	width: 250px;
+	margin: 0;
+	height: 50px;
+	background-color: #FCFCFC;
+}
+
+#aboutSec ul li:hover{
+	background-color: #c6deff;
+	cursor: pointer;
+}
+
+aboutTitle{
+	font-size: 25px;
+}
+
+.abtSec{
+	opacity: 0;
+}
+
+#projectsSec{
+	position: absolute;
+	overflow: hidden;
+	display: block;
+	width: 249px;
+	height: 75px;
+	left: 250px;
+	background-color: #89BBFE;
+	line-height: 75px;
+}
+
+#projectsSec ul{
+	line-height: 50px;
+	padding: 0;
+}
+
+#projectsSec ul li{
+	display: inline-block;
+	font-size: 20px;
+	opacity: 0;
+	width: 250px;
+	margin: 0;
+	height: 50px;
+	background-color: #FCFCFC;
+}
+
+#projectsSec ul li:hover{
+	background-color: #c6deff;
+	cursor: pointer;
+}
+
+projectsTitle{
+	font-size: 25px;
+}
+
+.projSec{
+	opacity: 0;
+}
+
+#aboutBox {
+	z-index: 1000;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	left: -75vw;
+	height: 100vh;
+	width: 75vw;
+	background-color:  #26547C;
+}
+
+.abtBoxes{
+	color: white;
+	position: fixed;
+	margin: 0;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	left: 0;
+	height: 80vh;
+	width: 55vw;
+	z-index: -1001;
+	opacity: 0;
+}
+
+.projBoxes{
+	position: fixed;
+	margin: 0;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	right: 0;
+	height: 80vh;
+	width: 55vw;
+	z-index: -1001;
+	opacity: 0;
+}
+
+
+#projectBox{
+	z-index: 1000;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	right: -75vw;
+	height: 100vh;
+	width: 75vw;
+	background-color: #EF476F;
+}
+

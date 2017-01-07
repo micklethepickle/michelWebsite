@@ -1,0 +1,117 @@
+extends layout
+
+block content
+	#backgroundBox
+	#aboutBox
+
+	#projectBox
+
+	#mainBox
+		#titleBox
+			<center><mainTitle>MICHEL MA</mainTitle></center>
+			<center><quote>"something something something"</quote></center>
+
+		.sections
+			#aboutSec
+				<center><aboutTitle>About</aboutTitle>
+				<ul class='abtList'>
+				li
+					#education(data-box = "educationTxt").abtSec
+						p education
+				li
+					#experience(data-box="experienceTxt").abtSec
+						p experience
+				li
+					#skillset(data-box="skillsetTxt").abtSec
+						p skillset
+				li
+					#contact(data-box="contactTxt").abtSec
+						p contact info
+
+				</ul>
+				</center>
+
+			#projectsSec
+				<center><projectsTitle>Projects</projectsTitle>
+				<ul class='projList'>
+				li
+					#pineappleprograms(data-box = "pineappleprogramsTxt").projSec
+						p pineapple programs
+				li
+					#wherecaniapply(data-box = "wherecaniapplyTxt").projSec
+						p where can i apply
+				li
+					#whosonbreak(data-box = "whosonbreakTxt").projSec
+						p who's on break
+				li
+					#personalwebsite(data-box = "personalwebsiteTxt").projSec
+						p personal website
+				</ul>
+				</center>
+
+	#educationTxt.abtBoxes
+		<center><eduTitle>EDUCATION</eduTitle></center>
+		<education align="left">I am a Marianopolis Graduate, currently enrolled in a joint major in Computer Science and Physics at McGill Univsersity class of 2019. My interest in programming and curiosity in the natural Sciences encourages me to not only learn new material day-by-day but to also apply them to real life applications</education>
+
+	#experienceTxt.abtBoxes
+		<center><expTitle>EXPERIENCE</expTitle></center>
+		<experience align="left"><p><u>Guiker, Summer 2016</u></p>
+		<p> During the summer of 2016, I participated in a short internship at a recent startup, Guiker, a company designed to help foreign students rent appartments. During this time, the main focus for software interns was to learn how to work in a team environnemnt using C#, and Xamarin.Forms. All of the work done here was for mobile development. </p></experience>
+
+	#skillsetTxt.abtBoxes
+		<center><skillTitle>SKILL SET</skillTitle></center>
+		<skillset align="left">C#, Xamarin, Python, CSS, HTML, XAML, Javascript, AWS, Bash, Node.js, Git, SQLite, MongoDB, JQuery, Android Studio, Java.</skillset>
+
+	#contactTxt.abtBoxes
+		<center><contactTitle>CONTACT INFO</contactTitle></center>
+		<contactInfo align="left"><p>email: michel.ma@mail.mcgill.ca</p><p>phone: (438) 580-5391</p>
+		<ul>
+		li
+			<a href='https://github.com/micklethepickle'>Github</a>
+		li
+			<a href='https://stackoverflow.com/users/7389024/michel-ma'>Stack Overflow</a>
+		</ul>
+
+
+	#pineappleprogramsTxt.projBoxes
+		<center><pineTitle>PINEAPPLE PROGRAMS</pineTitle></center>
+		<pineappleprograms align="right">Pineapple Programs is a mock company website a couple of friends and I designed in order to hone our skills in css, html, and jquery. It also showcases the ability to send and recieve emails using sendgrid.</pineappleprograms>
+		<br></br>
+		<p>JQuey, Node, HTML, CSS, AWS</p>
+		<a href='pineappleprograms.com'>pineappleprograms.com</a>
+
+	#wherecaniapplyTxt.projBoxes
+		<center><wciaTitle>WHERE CAN I APPLY?</wciaTitle></center>
+		<wherecaniapply align="right">Where can I apply is a website used to help students in Quebec find which University and which program they should apply to with their current R-scores. We built this website as a team of three, since there were not many tools to help CEGEP students in particular apply to Universities of their choice.</wherecaniapply>
+		<br></br>
+		<p>MongoDB, HTML, CSS, Node, AWS</p>
+		<a href='https://github.com/micklethepickle/WhereDoIApplyV2.0'>Github Link</a>
+
+	#whosonbreakTxt.projBoxes
+		<center><wobTitle>WHO'S ON BREAK?<wobTitle></center>
+		<whosonbreak align="right">Who's on break is a mobile application designed both for android and iOS built in a team of two during the HackCooper 2016 hackathon. It is fully functional, and it's goal is to be able to easily communicate common breaks in a school environment with friends. It implements features such as friend's list, a custom calendar and notifications.</whosonbreak>
+		<br></br>
+		<p>AWS, Node, MongoDB, Xamarin, SQLite</p>
+		<a href='https://github.com/micklethepickle/HackCooper'>Github Link</a>
+
+	#personalwebsiteTxt.projBoxes
+		<center><pwTitle>PERSONAL WEBSITE<pwTitle></center>
+		<personalwebsite align="right">michelma.me is a personal website created and designed by myself. Take a look around to see what it contains!</personalwebsite>
+		<br></br>
+		<p>AWS, Node, HTML, CSS, JQuery</p>
+		<p> Github Link (coming soon)</p>
+		
+
+
+
+
+
+
+
+
+	//scripts
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="/scripts/sectionGrower.js"></script>
+	<script src="/scripts/leftSlider.js"></script>
+	<script src="/scripts/rightSlider.js"></script>
+
