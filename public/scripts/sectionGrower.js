@@ -9,6 +9,8 @@ $(function(){
 			$('#backgroundBox').animate({opacity: '0.5'}, 300);
 			$('.abtSec').delay(300).animate({opacity: '1'}, 200);
 			$('ul.abtList > li').delay(300).animate({opacity: '1'}, 200);
+			$('#rightBackButtonBox').fadeIn(300);
+			$('#leftBackButtonBox').fadeIn(300);
 		};
 	})
 	$('#backgroundBox').on('click', function(){
@@ -17,6 +19,8 @@ $(function(){
 			$('#backgroundBox').delay(200).animate({opacity: '1'}, 300);
 			$('.abtSec').animate({opacity: '0'}, 200);
 			$('ul.abtList > li').animate({opacity: '0'}, 200);
+			$('#rightBackButtonBox').fadeOut(300);
+			$('#leftBackButtonBox').fadeOut(300);
 		}
 	})
 
@@ -28,6 +32,9 @@ $(function(){
 			$('#backgroundBox').animate({opacity: '0.5'}, 300);
 			$('.projSec').delay(300).animate({opacity: '1'}, 200);
 			$('ul.projList > li').delay(300).animate({opacity: '1'}, 200);
+			$('#rightBackButtonBox').fadeIn(300);
+			$('#leftBackButtonBox').fadeIn(300);
+
 		};
 	})
 	$('#backgroundBox').on('click', function(){
@@ -36,6 +43,8 @@ $(function(){
 			$('#backgroundBox').delay(200).animate({opacity: '1'}, 300);
 			$('.projSec').animate({opacity: '0'}, 200);
 			$('ul.projList > li').animate({opacity: '0'}, 200);
+			$('#rightBackButtonBox').fadeOut(300);
+			$('#leftBackButtonBox').fadeOut(300);
 		}
 	})
 })

@@ -30,6 +30,7 @@ p{
 	background-color: #06D6A0;
 }
 
+
 mainTitle{
 	position: relative;
 	font-size: 50px;
@@ -81,6 +82,7 @@ mainTitle{
 	line-height: 75px;
 }
 
+
 #aboutSec ul{
 	line-height: 50px;
 	padding: 0;
@@ -103,6 +105,9 @@ mainTitle{
 
 aboutTitle{
 	font-size: 25px;
+}
+aboutTitle:hover{
+	cursor: pointer;
 }
 
 .abtSec{
@@ -142,6 +147,9 @@ aboutTitle{
 
 projectsTitle{
 	font-size: 25px;
+}
+projectsTitle:hover{
+	cursor: pointer;
 }
 
 .projSec{
@@ -202,3 +210,55 @@ projectsTitle{
 	background-color: #EF476F;
 }
 
+#rightBackButtonBox{
+	z-index: -2000;
+	position: fixed;
+	display: none;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	right: 0;
+	width: 25vw;
+	height: 100vh;
+}
+#rightBackButtonBox:hover{
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.rightBackText{
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	color: #a0ffe6;
+	font-size: 26vmin;
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+}
+
+
+#leftBackButtonBox{
+	z-index: -2000;
+	position: fixed;
+	display: none;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	width: 25vw;
+	height: 100vh;
+}
+#leftBackButtonBox:hover{
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.leftBackText{
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	color: #a0ffe6;
+	font-size: 26vmin;
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+}
