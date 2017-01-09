@@ -34,14 +34,29 @@ p{
 mainTitle{
 	position: relative;
 	font-size: 75px;
+	top: 30px;
 	line-height: 200px;
 }
 
 quote{
+	font-size: 30px;
+	margin-left: 170px;
 	position: relative;
-	top: -30px;
+	top: -50px;
 }
 
+.physicist{
+	color: #F4D35E;
+}
+.programmer{
+	color: #DA4167;
+}
+.student{
+	color: #F78764;
+}
+.meme-economist{
+	color: #5B85AA;
+}
 #mainBox{
 	z-index: -50;
 	top: -100px;
