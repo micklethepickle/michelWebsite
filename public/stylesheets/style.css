@@ -33,7 +33,13 @@ p{
 
 mainTitle{
 	position: relative;
-	font-size: 50px;
+	font-size: 75px;
+	line-height: 200px;
+}
+
+quote{
+	position: relative;
+	top: -30px;
 }
 
 #mainBox{
@@ -44,8 +50,8 @@ mainTitle{
 	left: 0;
 	position: fixed;
 	margin: auto;
-	height: 200px;
-	width: 500px;
+	height: 400px;
+	width: 700px;
 	background-color: #FCFCFC;
 	box-shadow: 0 0 20px #000000;
 }
@@ -65,8 +71,8 @@ mainTitle{
 #titleBox{
 	z-index: -25;
 	display: block;
-	width: 500px;
-	height: 123px;
+	width: 700px;
+	height: 248px;
 	border-bottom: 2px solid black;
 
 }
@@ -75,16 +81,16 @@ mainTitle{
 	position: absolute;
 	overflow: hidden;
 	display: block;
-	width: 249px;
-	height: 75px;
+	width: 349px;
+	height: 150px;
 	background-color: #89BBFE;
 	border-right: 2px solid black;
-	line-height: 75px;
+	line-height: 150px;
 }
 
 
 #aboutSec ul{
-	line-height: 50px;
+	line-height: 75px;
 	padding: 0;
 }
 
@@ -92,9 +98,9 @@ mainTitle{
 	opacity: 0;
 	display: inline-block;
 	font-size: 20px;
-	width: 250px;
-	margin: 0;
-	height: 50px;
+	width: 345px;
+	margin: 2px;
+	height: 75px;
 	background-color: #FCFCFC;
 }
 
@@ -104,7 +110,7 @@ mainTitle{
 }
 
 aboutTitle{
-	font-size: 25px;
+	font-size: 35px;
 }
 aboutTitle:hover{
 	cursor: pointer;
@@ -118,15 +124,15 @@ aboutTitle:hover{
 	position: absolute;
 	overflow: hidden;
 	display: block;
-	width: 249px;
-	height: 75px;
-	left: 250px;
+	width: 349px;
+	height: 150px;
+	left: 351px;
 	background-color: #89BBFE;
-	line-height: 75px;
+	line-height: 150px;
 }
 
 #projectsSec ul{
-	line-height: 50px;
+	line-height: 75px;
 	padding: 0;
 }
 
@@ -134,9 +140,9 @@ aboutTitle:hover{
 	display: inline-block;
 	font-size: 20px;
 	opacity: 0;
-	width: 250px;
-	margin: 0;
-	height: 50px;
+	width: 345px;
+	margin: 2px;
+	height: 75px;
 	background-color: #FCFCFC;
 }
 
@@ -146,7 +152,7 @@ aboutTitle:hover{
 }
 
 projectsTitle{
-	font-size: 25px;
+	font-size: 35px;
 }
 projectsTitle:hover{
 	cursor: pointer;
