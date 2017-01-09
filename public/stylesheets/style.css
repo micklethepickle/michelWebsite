@@ -54,7 +54,7 @@ quote{
 .student{
 	color: #F78764;
 }
-.meme-economist{
+.redditor{
 	color: #5B85AA;
 }
 #mainBox{
@@ -191,6 +191,7 @@ projectsTitle:hover{
 .abtBoxes{
 	color: white;
 	position: fixed;
+	overflow: scroll;
 	margin: 0;
 	padding-left: 10vw;
 	padding-right: 10vw;
@@ -205,6 +206,7 @@ projectsTitle:hover{
 
 .projBoxes{
 	position: fixed;
+	overflow: scroll;
 	margin: 0;
 	padding-left: 10vw;
 	padding-right: 10vw;

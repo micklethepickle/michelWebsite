@@ -23,7 +23,7 @@ block content
 			<center><mainTitle>MICHEL MA</mainTitle></center>
 			<quote>
 			span.firstPart Aspiring 
-			span.secondPart  programmer
+			span.secondPart.programmer  programmer
 			</quote>
 
 		.sections
@@ -32,16 +32,16 @@ block content
 				<ul class='abtList'>
 				li
 					#education(data-box = "educationTxt").abtSec
-						p education
+						p Education
 				li
 					#experience(data-box="experienceTxt").abtSec
-						p experience
+						p Experience
 				li
 					#skillset(data-box="skillsetTxt").abtSec
-						p skillset
+						p Skillset
 				li
 					#contact(data-box="contactTxt").abtSec
-						p contact info
+						p Contact Info
 
 				</ul>
 				</center>
@@ -51,31 +51,105 @@ block content
 				<ul class='projList'>
 				li
 					#pineappleprograms(data-box = "pineappleprogramsTxt").projSec
-						p pineapple programs
+						p Pineapple Programs
 				li
 					#wherecaniapply(data-box = "wherecaniapplyTxt").projSec
-						p where can i apply
+						p Where Can I Apply
 				li
 					#whosonbreak(data-box = "whosonbreakTxt").projSec
-						p who's on break
+						p Who's on Break
 				li
 					#personalwebsite(data-box = "personalwebsiteTxt").projSec
-						p personal website
+						p Personal Website
 				</ul>
 				</center>
 
 	#educationTxt.abtBoxes
 		<center><eduTitle>EDUCATION</eduTitle></center>
-		<education align="left">I am a Marianopolis Graduate, currently enrolled in a joint major in Computer Science and Physics at McGill Univsersity class of 2019. My interest in programming and curiosity in the natural Sciences encourages me to not only learn new material day-by-day but to also apply them to real life applications</education>
+		<education align="left">
+		<p><u>Marianopolis, 2014-2016</u></p>
+		<p>I studied Pure and Applied at Marianopolis College during my two years of CEGEP. I quickly took an interest in programming and started getting involved in the computer science world.</p>
+		<p>Relevant courses, club:</p>
+		<ul>
+		li
+			p Digital Logic
+		li
+			p Computer Programming
+		li
+			p Marianopolis Computer Science Club
+		</ul>
+
+		<p><u>McGill University, 2016-2019</u></p>
+		<p>I am currently enrolled in a joint major in Computer Science and Physics at McGill Univsersity class of 2019.</p>
+		<p>Relevant courses taken:</p>
+		<ul>
+		li
+			p Comp 250, Introduction to Computer Science
+		li
+			p Comp 251, Algorithms and Data Structures
+		li
+			p Comp 206, Introduction to Software Systems
+		li
+			p Comp 263, Introduction to Computer Systems
+		</ul></education>
 
 	#experienceTxt.abtBoxes
 		<center><expTitle>EXPERIENCE</expTitle></center>
 		<experience align="left"><p><u>Guiker, Summer 2016</u></p>
-		<p> During the summer of 2016, I participated in a short internship at a recent startup, Guiker, a company designed to help foreign students rent appartments. During this time, the main focus for software interns was to learn how to work in a team environnemnt using C#, and Xamarin.Forms. All of the work done here was for mobile development. </p></experience>
+		<p> During the summer of 2016, I participated in a short internship at a recent startup, Guiker, a company designed to help foreign students rent appartments. During this time, the main focus for software interns was to learn how to work in a team environment using C#, and Xamarin.Forms. All of the work done here was for mobile development. </p>
+		<p><u>Hackathons</u></p>
+		<ul>
+		li
+			p McHacks, February 2016
+		li
+			p Hack The North, September 2016
+		li
+			p Hack Cooper, September 2016
+		li
+			p Hack Harvard, October 2016
+		</ul>
+		</experience>
 
 	#skillsetTxt.abtBoxes
 		<center><skillTitle>SKILL SET</skillTitle></center>
-		<skillset align="left">C#, Xamarin, Python, CSS, HTML, XAML, Javascript, AWS, Bash, Node.js, Git, SQLite, MongoDB, JQuery, Android Studio, Java.</skillset>
+		<p><u>Languages</u></p>
+		<ul>
+		li
+			p C#
+		li
+			p Python
+		li
+			p CSS
+		li 
+			p HTML
+		li
+			p XAML
+		li
+			p Javascript
+		li
+			p Java
+		</ul>
+		<p><u>Other</u></p>
+		<ul>
+		li
+			p Xamarin
+		li
+			p AWS
+		li
+			p Bash
+		li
+			p Node.js
+		li
+			p Git
+		li
+			p SQlite
+		li
+			p MongoDB
+		li
+			p JQuery
+		li
+			p Android Studio
+		</ul>
 
 	#contactTxt.abtBoxes
 		<center><contactTitle>CONTACT INFO</contactTitle></center>
@@ -91,6 +165,9 @@ block content
 	#pineappleprogramsTxt.projBoxes
 		<center><pineTitle>PINEAPPLE PROGRAMS</pineTitle></center>
 		<pineappleprograms align="right">Pineapple Programs is a mock company website a couple of friends and I designed in order to hone our skills in css, html, and jquery. It also showcases the ability to send and recieve emails using sendgrid.</pineappleprograms>
+		<br>
+		<img src="/images/pinePrograms1.png" height=300px>
+		<img src="/images/pinePrograms2.png" height=300px>
 		<br></br>
 		<p>JQuey, Node, HTML, CSS, AWS</p>
 		<a href='pineappleprograms.com'>pineappleprograms.com</a>
@@ -105,6 +182,9 @@ block content
 	#whosonbreakTxt.projBoxes
 		<center><wobTitle>WHO'S ON BREAK?<wobTitle></center>
 		<whosonbreak align="right">Who's on break is a mobile application designed both for android and iOS built in a team of two during the HackCooper 2016 hackathon. It is fully functional, and it's goal is to be able to easily communicate common breaks in a school environment with friends. It implements features such as friend's list, a custom calendar and notifications.</whosonbreak>
+		<br>
+		<img src="/images/whosOnBreak1.png" height=300px>
+		<img src="/images/whosOnBreak2.png" height=300px>
 		<br></br>
 		<p>AWS, Node, MongoDB, Xamarin, SQLite</p>
 		<a href='https://github.com/micklethepickle/HackCooper'>Github Link</a>
@@ -114,7 +194,7 @@ block content
 		<personalwebsite align="right">michelma.me is a personal website created and designed by myself. Take a look around to see what it contains!</personalwebsite>
 		<br></br>
 		<p>AWS, Node, HTML, CSS, JQuery</p>
-		<p> Github Link (coming soon)</p>
+		<a href='https://github.com/micklethepickle/michelWebsite'>Github Link</a>
 		
 
 
