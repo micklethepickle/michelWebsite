@@ -2,7 +2,7 @@
 darkBlue: #26547C;
 red: #EF476F;
 yellow: #89BBFE;
-lightGreen: #06D6A0;
+lightGreen: #ffd289;
 white: #FCFCFC;
 */
 
@@ -27,7 +27,7 @@ p{
 	padding: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #06D6A0;
+	background-color: #ffd289;
 }
 
 
@@ -254,7 +254,7 @@ projectsTitle:hover{
 	display: inline-block;
 	top: 50%;
 	left: 50%;
-	color: #a0ffe6;
+	color: #ffc363;
 	font-size: 26vmin;
 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
 }
@@ -281,7 +281,7 @@ projectsTitle:hover{
 	display: inline-block;
 	top: 50%;
 	left: 50%;
-	color: #a0ffe6;
+	color: #ffc363;
 	font-size: 26vmin;
 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
 }
